@@ -1,16 +1,21 @@
 //
-//  Constant.swift
+//  ConstantsTemplate.swift
 //  YoutubeApplication
 //
-//  Created by Sanjeev Viswanath on 9/27/20.
+//  Created by Sanjeev Viswanath on 9/28/20.
 //
 
 import Foundation
 
+// uncomment the below code and update appropriate key values.
+/*
 struct Constants {
     
-    static var  API_KEY = "AIzaSyAKSDBKbmnJRzTdNv5bxyO4gOYAMKNi-UI"
-    static var PLAYLIST_ID = "PLMRqhzcHGw1ZkH8RuznGMS0NZs0jWQQ5a"
+    static var  API_KEY = ""
+    static var PLAYLIST_ID = ""
     static var API_URL = "https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&playlistId=\(Constants.PLAYLIST_ID)&key=\(Constants.API_KEY)"
     
 }
+ */
+
+
