@@ -30,11 +30,25 @@ class Model {
             
             //check if there are any errors
             
-            if error != nil || data != nil {
+            if error != nil || data == nil {
                 
                 return
             }
-        // parsing data implementation
+            
+            do {
+                // parsing data implementation
+                    
+                    let decoder = JSONDecoder()
+                    decoder.dateDecodingStrategy = .iso8601
+                    let response = try decoder.decode(Response.self, from: data!)
+                    dump(response)
+                
+            }
+            catch {
+                
+            }
+            
+        
             
             
         }
