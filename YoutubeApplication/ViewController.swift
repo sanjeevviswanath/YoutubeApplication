@@ -81,6 +81,7 @@ class ViewController: UIViewController , UITableViewDataSource, UITableViewDeleg
         let cell = tableView.dequeueReusableCell(withIdentifier: Constants.VIDEOCELL_ID, for: indexPath) as! VideoTableViewCell
         
         
+        
         // configure the cell with data
         // get the title for the videos in question
         let video = self.videos[indexPath.row]
